@@ -1,7 +1,6 @@
 {
    "commerceSuiteVersion": "6.6.0.3",
    "extensions": [
-       "optcustomerfacade",
        "yacceleratorstorefront",
        "backoffice",
        "platformbackoffice",
@@ -21,6 +20,10 @@
         {
             "key": "test.property.2",
             "value": "test.property.2.value"
+        }
+        {
+            "key": "test.property.3",
+            "value": "test.property.3.value"
         }
     ],
    "project": "ps_cc2v1",
