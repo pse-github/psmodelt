@@ -1,7 +1,6 @@
 {
    "commerceSuiteVersion": "6.5.0.7",
    "extensions": [
-       "optcustomerfacade",
        "yacceleratorstorefront",
        "backoffice",
        "platformbackoffice",
@@ -23,9 +22,9 @@
             "value": "test.property.2.value"
         }
     ],
-   "project": "ps1b",
+   "project": "pse_ccv2_dev",
    "recipe": "pipeline_b2c_dockerized",
-   "resultingImageVersion": "ps1b",    
+   "resultingImageVersion": "pse_ccv2_dev",    
    "aspects": [
         {
             "name": "backgroundProcessing",
