@@ -1,5 +1,5 @@
 {
-   "commerceSuiteVersion": "6.7.0.1",
+   "commerceSuiteVersion": "6.6.0.3",
    "extensions": [
        "yacceleratorstorefront",
        "backoffice",
@@ -20,10 +20,6 @@
         {
             "key": "test.property.2",
             "value": "test.property.2.value"
-        },
-        {
-            "key": "test.property.3",
-            "value": "test.property.3.value"
         }
     ],
    "project": "pse_ccv2",
@@ -86,4 +82,3 @@
         }
     ]
 }
-
