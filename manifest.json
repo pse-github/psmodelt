@@ -23,9 +23,9 @@
             "value": "test.property.2.value"
         }
     ],
-   "project": "pse_ccv2",
+   "project": "ps_cc2v1",
    "recipe": "pipeline_b2c_dockerized",
-   "resultingImageVersion": "pse_ccv2",    
+   "resultingImageVersion": "ps_cc2v1",    
    "aspects": [
          {
             "name": "backoffice",
