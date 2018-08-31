@@ -46,7 +46,7 @@
         },
         {
             "name": "accstorefront",
-            "properties":
+            "properties": [
                 {
                     "key": "spring.session.enabled",
                     "value": "true"
