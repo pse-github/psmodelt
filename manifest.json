@@ -22,9 +22,9 @@
             "value": "test.property.2.value"
         }
     ],
-   "project": "ps_cc2v1",
+   "project": "pse_ccv2",
    "recipe": "pipeline_b2c_dockerized",
-   "resultingImageVersion": "ps_cc2v1",    
+   "resultingImageVersion": "pse_ccv2",    
    "aspects": [
          {
             "name": "backoffice",
@@ -46,7 +46,28 @@
         },
         {
             "name": "accstorefront",
-            "properties": [],
+            "properties":
+                {
+                    "key": "spring.session.enabled",
+                    "value": "true"
+                },
+                {
+                    "key": "spring.session.yacceleratorstorefront.save",
+                    "value":"async"
+                },
+                {
+                    "key": "spring.session.yacceleratorstorefront.cookie.name",
+                    "value": "JSESSIONID"
+                },
+                {
+                    "key": "spring.session.yacceleratorstorefront.cookie.path",
+                    "value": "/"
+                },
+                {
+                    "key":"storefrontContextRoot",
+                    "value":""
+                }
+            ],
             "webapps": [
                 {
                     "name": "hac",
@@ -58,7 +79,7 @@
                 },
                 {
                     "name": "yacceleratorstorefront",
-                    "contextPath": "/"
+                    "contextPath": ""
                 }
             ]
         },
